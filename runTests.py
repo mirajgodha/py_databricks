@@ -30,23 +30,4 @@ assert retcode == 0, "The pytest invocation failed. See the log for details."
 
 # COMMAND ----------
 
-# MAGIC  %sh ls /.fuse-mounts/wsfs/Repos/miraj.godha@devops.sentinelcloud.com/
-
-# COMMAND ----------
-
-import os
-os.chdir(f"/Workspace/{repo_root}/{repo_name}")
-print(os.getcwd())
-print(notebook_path)
-
-# COMMAND ----------
-
-print(repo_root)
-
-# COMMAND ----------
-
-# MAGIC %sh pwd
-
-# COMMAND ----------
-
 
